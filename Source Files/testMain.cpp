@@ -340,7 +340,7 @@ void readConfigFile(char *fnme)
 }
 
 int
-mmain(int argc, char *argv[])
+main(int argc, char *argv[])
 {
   glutInitWindowSize(500, 250);
   glutInitWindowPosition(140, 140);
