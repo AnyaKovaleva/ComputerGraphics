@@ -3,7 +3,9 @@ project(ComputerGraphics)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ComputerGraphics "Source Files/3dView.cpp")
+add_executable(ComputerGraphics "Source Files/courseWork.cpp")
+#add_executable(ComputerGraphics "Source Files/lab_1.cpp")
+#add_executable(ComputerGraphics "Source Files/_2.cpp")
 
 target_link_libraries(ComputerGraphics -lOpenGL32 -lfreeGLUT)
 
